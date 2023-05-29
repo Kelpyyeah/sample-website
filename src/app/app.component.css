@@ -1,0 +1,22 @@
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: rgb(197, 37, 37);
+}
+
+button {
+    border: none;
+    background-color: rgb(197, 37, 37);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}

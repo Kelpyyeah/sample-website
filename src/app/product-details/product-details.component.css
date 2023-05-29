@@ -1,0 +1,17 @@
+img {
+    height: 300px;
+    width: 300px;
+    margin: 70px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    border: 1px solid grey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 113px;
+}
+
+#info {
+    margin: 70px;
+}

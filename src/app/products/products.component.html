@@ -1,0 +1,27 @@
+<h1>Menu</h1>
+
+<form #form="ngForm" (ngSubmit)="onSubmit()">
+    <button routerLink="/create">Add</button>
+    <input type="text" name="search" [(ngModel)]="search">
+    <button type="submit">Search</button>
+</form>
+
+<div *ngIf="!search" class="container">
+    <div *ngFor="let item of itemList" class="child">
+        <img [src]="item.imageUrl">
+        <h4>{{item.name}} ${{item.price}}</h4>
+        <button [routerLink]="['/products', item.id]">View</button>
+        <button [routerLink]='["/edit", item.id]'>Edit</button>
+        <button (click)="onDelete(item.id)">Delete</button>
+    </div>
+</div>
+
+<div *ngIf="search" class="container">
+    <div *ngFor="let item of searchedItems" class="child">
+        <img [src]="item.imageUrl">
+        <h4>{{item.name}} ${{item.price}}</h4>
+        <button [routerLink]="['/products', item.id]">View</button>
+        <button [routerLink]='["/edit", item.id]'>Edit</button>
+        <button (click)="onDelete(item.id)">Delete</button>
+    </div>
+</div>

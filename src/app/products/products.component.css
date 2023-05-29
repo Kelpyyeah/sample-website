@@ -1,0 +1,36 @@
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.child {
+    margin: 100px;
+    padding: 20px 0px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    border: 1px solid grey;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+}
+
+input {
+    margin-left: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 30px;
+}

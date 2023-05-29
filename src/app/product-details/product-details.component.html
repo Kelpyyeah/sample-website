@@ -1,0 +1,11 @@
+<div class="container">
+    <img [src]="currentItem.imageUrl">
+    <div id="info">
+        <h2>{{currentItem.name}}</h2>
+        <p><b>Description:</b> {{currentItem.description}}</p>
+        <p><b>Bread:</b> {{currentItem.bread}}</p>
+        <p><b>Price:</b> ${{currentItem.price}}</p>
+        <button routerLink="/products">Back</button>
+    </div>
+    
+</div>

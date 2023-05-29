@@ -1,0 +1,16 @@
+img {
+    width: 500px;
+    height: 500px;
+    margin: 26px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    border: 1px solid grey;
+}
+
+.container {
+    display: flex;
+}
+
+p {
+    padding-top: 30px;
+    padding-right: 30px;
+}

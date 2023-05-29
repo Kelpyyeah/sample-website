@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "BLT",
+      "description": "Bacon, Lettuce, Tomato",
+      "bread": "White",
+      "price": 3.5,
+      "imageUrl": "https://www.allrecipes.com/thmb/fhFA3RhualUOwZxXYHig8ixD54M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4543157-e47cd201c0e34de0b63c70f62ccbe2ce.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Sandwich",
+      "description": "Fried Chicken",
+      "bread": "Hamburger bun",
+      "price": 5,
+      "imageUrl": "https://www.cfacdn.com/img/order/menu/Online/Entrees/CFASpicySandwich_1080.png"
+    },
+    {
+      "id": 3,
+      "name": "Club Sandwich",
+      "description": "Ham, Lettuce, Cheese, Tomato",
+      "bread": "Whole grain",
+      "price": 6.5,
+      "imageUrl": "https://images.wisegeek.com/club-sandwich-on-plate-with-pickle.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Tuna Fish",
+      "description": "Tuna salad starts with a blend of two main ingredients: tuna and mayonnaise. The tuna used is usually pre-cooked, canned, and packaged in water or oil. Pickles, celery, relish, and onion are popular ingredients to add.",
+      "bread": "White (Toasted)",
+      "price": 4,
+      "imageUrl": "https://images-gmi-pmc.edge-generalmills.com/7eb09e32-fb06-4a34-97e6-def91b62164f.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<h1>Create New Product</h1>
+<form #form="ngForm" (ngSubmit)="onSubmit()">
+    <label>Name</label><br>
+    <input type="text" name="name" [(ngModel)]="newItem.name"><br><br>
+
+    <label>Description</label><br>
+    <input type="text" name="description" [(ngModel)]="newItem.description"><br><br>
+
+    <label>Bread</label><br>
+    <input type="text" name="bread" [(ngModel)]="newItem.bread"><br><br>
+
+    <label>Price</label><br>
+    <input type="number" name="price" [(ngModel)]="newItem.price"><br><br>
+
+    <label>ImageUrl</label><br>
+    <input type="text" name="imageUrl" [(ngModel)]="newItem.imageUrl"><br><br>
+
+    <button type="submit">Submit</button>
+</form>
